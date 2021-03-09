@@ -29,9 +29,7 @@ function App() {
       <button onClick={IncNum} onMouseOver={mouseOver} onMouseOut={mouseOut}>
         +
       </button>
-      <br></br>
-      <br></br>
-      <br></br>
+
       <button onClick={DecNum} onMouseOver={mouseOver} onMouseOut={mouseOut}>
         -
       </button>
