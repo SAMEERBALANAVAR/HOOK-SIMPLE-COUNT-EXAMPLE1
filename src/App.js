@@ -12,6 +12,11 @@ function App() {
     change.target.style.background = "green";
     setCount(count + 1);
   }
+
+  function DecNum(change) {
+    change.target.style.background = "green";
+    setCount(count - 1);
+  }
   function mouseOver(change) {
     change.target.style.background = "red";
   }
@@ -22,7 +27,13 @@ function App() {
     <div>
       <h1>{count}</h1>
       <button onClick={IncNum} onMouseOver={mouseOver} onMouseOut={mouseOut}>
-        click me
+        +
+      </button>
+      <br></br>
+      <br></br>
+      <br></br>
+      <button onClick={DecNum} onMouseOver={mouseOver} onMouseOut={mouseOut}>
+        -
       </button>
     </div>
   );
