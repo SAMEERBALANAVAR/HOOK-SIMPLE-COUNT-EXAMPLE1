@@ -9,10 +9,10 @@ function App() {
   const [count, setCount] = useState(0);
 
   function IncNum(change) {
-    change.target.style.background = "white";
+    change.target.style.background = "green";
     setCount(count + 1);
   }
-  function changeBackground(change) {
+  function mouseOver(change) {
     change.target.style.background = "red";
   }
   function mouseOut(change) {
@@ -21,11 +21,7 @@ function App() {
   return (
     <div>
       <h1>{count}</h1>
-      <button
-        onClick={IncNum}
-        onMouseOver={changeBackground}
-        onMouseOut={mouseOut}
-      >
+      <button onClick={IncNum} onMouseOver={mouseOver} onMouseOut={mouseOut}>
         click me
       </button>
     </div>
