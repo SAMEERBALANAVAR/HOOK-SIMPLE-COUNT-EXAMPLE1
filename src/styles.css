@@ -16,4 +16,8 @@ button {
 h1 {
   align-content: center;
   font-size: 100px;
+  color: red;
+  border-style: double;
+  border-width: medium; /* sets border width on all sides */
+  border-color: black;
 }
