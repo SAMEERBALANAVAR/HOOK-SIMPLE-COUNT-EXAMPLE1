@@ -3,12 +3,12 @@ body {
 }
 button {
   display: inline-block;
-  margin: 300px; /* space between buttons */
-  background: #b06f97; /* background color */
-  color: #333; /* text color */
+  margin: 300px;
+  background: #b06f97;
+  color: #333;
   font-size: 3em;
   font-family: ‘Georgia’, serif;
-  border-radius: 10px; /* rounded corners */
+  border-radius: 10px;
   padding: 8px 16px; /* space around text */
 }
 
