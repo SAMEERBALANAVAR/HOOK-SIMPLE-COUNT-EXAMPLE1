@@ -9,6 +9,7 @@ button {
   font-size: 3em;
   font-family: ‘Georgia’, serif;
   border-radius: 10px;
+  outline: none;
   padding: 8px 16px; /* space around text */
 }
 
