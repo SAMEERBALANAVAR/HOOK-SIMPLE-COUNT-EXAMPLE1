@@ -3,18 +3,31 @@
 import React, { useState } from "react";
 
 function App() {
-  const state = useState();
+  const state = useState("");
 
   //count is initial value for state and setcount is used to display updated count value
   const [count, setCount] = useState(0);
 
-  function IncNum() {
+  function IncNum(change) {
+    change.target.style.background = "white";
     setCount(count + 1);
+  }
+  function changeBackground(change) {
+    change.target.style.background = "red";
+  }
+  function mouseOut(change) {
+    change.target.style.background = "yellow";
   }
   return (
     <div>
       <h1>{count}</h1>
-      <button onClick={IncNum}>click me</button>
+      <button
+        onClick={IncNum}
+        onMouseOver={changeBackground}
+        onMouseOut={mouseOut}
+      >
+        click me
+      </button>
     </div>
   );
 }
