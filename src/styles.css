@@ -1,5 +1,5 @@
 body {
-  background-color: blueviolet;
+  background-color: black;
 }
 button {
   display: inline-block;
@@ -14,11 +14,10 @@ button {
 
 h1 {
   font-size: 100px;
-  color: black;
+  color: blue;
   background-color: white;
   text-align: center;
   border-style: double;
   border-width: medium; /* sets border width on all sides */
-  border-color: black;
   box-shadow: 5px 10px;
 }
