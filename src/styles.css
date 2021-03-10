@@ -2,7 +2,6 @@ body {
   background-color: black;
 }
 button {
-  display: inline-block;
   margin: 300px;
   background: #b06f97;
   color: #333;
@@ -15,10 +14,10 @@ button {
 
 h1 {
   font-size: 100px;
-  color: blue;
-  background-color: white;
+  color: whitesmoke;
+  background-color: black;
   text-align: center;
-  border-style: double;
+  border-style: solid;
   border-width: medium; /* sets border width on all sides */
   box-shadow: 5px 10px;
 }
