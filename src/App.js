@@ -23,12 +23,23 @@ function App() {
   function mouseOut(change) {
     change.target.style.background = "yellow";
   }
+
+  function Reset() {
+    setCount(0);
+  }
   return (
     <div>
       <h1>{count}</h1>
       <button onClick={IncNum} onMouseOver={mouseOver} onMouseOut={mouseOut}>
         +
       </button>
+      <nsbp></nsbp>
+
+      <img
+        onClick={Reset}
+        src="https://previews.123rf.com/images/faysalfarhan/faysalfarhan1707/faysalfarhan170701087/81884997-refresh-rotate-arrow-icon-isolated-on-glassy-green-round-button-abstract-illustration.jpg"
+        alt=""
+      />
 
       <button onClick={DecNum} onMouseOver={mouseOver} onMouseOut={mouseOut}>
         -

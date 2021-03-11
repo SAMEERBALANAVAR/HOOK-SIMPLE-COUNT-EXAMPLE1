@@ -2,16 +2,8 @@ body {
   background-color: black;
 }
 button {
-  margin: 300px;
-  background: #b06f97;
-  color: #333;
-  font-size: 3em;
-  font-family: ‘Georgia’, serif;
-  border-radius: 10px;
-  outline: none;
-  padding: 8px 16px; /* space around text */
+  padding: 50px 50px 50px 50px;
 }
-
 h1 {
   font-size: 100px;
   color: whitesmoke;
@@ -20,4 +12,8 @@ h1 {
   border-style: solid;
   border-width: medium; /* sets border width on all sides */
   box-shadow: 5px 10px;
+}
+img {
+  height: 250px;
+  width: 350px;
 }
